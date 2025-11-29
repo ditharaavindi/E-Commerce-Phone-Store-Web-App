@@ -10,3 +10,23 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Quick Start
+
+1. Install dependencies:
+
+   `npm install`
+
+2. Run the development server with HMR:
+
+   `npm run dev`
+
+3. Build for production:
+
+   `npm run build`
+
+4. Preview a production build locally:
+
+   `npm run preview`
+
+These commands assume you are in the `Frontend` directory and have Node.js/npm installed.
